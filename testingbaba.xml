@@ -1,0 +1,34 @@
+
+<suite name="Suite">
+<parameter key ="browsername" value ="chrome"></parameter>
+  <test  name="TestHome" enable = "True">
+    <classes>
+      <class name="test.TestHomepage"/>
+    </classes>
+  </test> 
+  
+  <test  name="TestTextBoxPage" enable = "false">
+    <classes>
+      <class name="test.TestTextBoxPage"/>
+    </classes>
+  </test> 
+  
+   <test  name="checkbox" enable = "false">
+    <classes>
+      <class name="test.TestCheckBox"/>
+    </classes>
+  </test> 
+  
+   <test  name="menupage" enable = "false">
+    <classes>
+       <class name="test.TestSelectMenuPage"/>
+    </classes>
+  </test> 
+  
+   <test  name="tooltips" enable = "false">
+    <classes>
+      <class name="test.TestToolTips"/>
+    </classes>
+  </test> 
+  
+</suite> 
